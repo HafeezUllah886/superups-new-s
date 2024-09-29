@@ -1,0 +1,2 @@
+<?php
+ use App\Http\Controllers\StockController; use Illuminate\Support\Facades\Route; Route::middleware("\141\x75\164\x68")->group(function () { Route::get("\x70\x72\x6f\144\x75\143\x74\x73\x2f\163\x74\x6f\143\x6b\57\173\151\x64\175\x2f\x7b\x77\141\x72\x65\x68\x6f\x75\x73\x65\x7d\57\173\146\x72\x6f\155\175\x2f\x7b\x74\157\x7d", array(StockController::class, "\x73\x68\x6f\167"))->name("\x73\164\x6f\143\x6b\x44\x65\164\141\x69\x6c\x73"); Route::resource("\x70\x72\157\x64\165\x63\x74\137\163\164\x6f\143\153", StockController::class); });
